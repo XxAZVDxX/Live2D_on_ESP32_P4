@@ -1,12 +1,33 @@
-# Live2D_on_ESP32_P4
+# Live2D on ESP32-P4
 
+[![Platform](https://img.shields.io/badge/platform-ESP32--P4-blue)](https://www.espressif.com/en/products/socs/esp32-p4)
+[![UI](https://img.shields.io/badge/UI-LVGL-orange)](https://lvgl.io/)
+[![Screen](https://img.shields.io/badge/display-4.3--inch%20MIPI-brightgreen)]()
 
-Device: ESP32-P4C6-Module(From yuyinglcd)
-Platform: PlatformIO
-UI: LVGL
-Screen: 800x480 TFT 4.3inch Touch Screen MIPI
+A lightweight, real-time Live2D avatar renderer running on the **ESP32-P4** microcontroller with an 800×480 MIPI touch display.
 
-https://github.com/user-attachments/assets/175a7f9e-df7f-44a4-b632-d4226690e02f
+---
 
-[![See on YouTube](https://www.youtube.com/shorts/IKaAJqeQ7i8?feature=share)](https://www.youtube.com/shorts/IKaAJqeQ7i8?feature=share)
-[![See on Bilibili](https://www.bilibili.com/video/BV1Axgg6aEfV?t=5.9)](https://www.bilibili.com/video/BV1Axgg6aEfV?t=5.9)
+## Demos
+
+| YouTube | Bilibili |
+|---------|----------|
+| [![YouTube Short](https://img.youtube.com/vi/IKaAJqeQ7i8/0.jpg)](https://www.youtube.com/shorts/IKaAJqeQ7i8?feature=share) | [![Bilibili](https://i.imgur.com/placeholder.png)](https://www.bilibili.com/video/BV1Axgg6aEfV?t=5.9) |
+
+---
+
+## Hardware
+
+- **Board**: ESP32-P4-C6-Module (from [yuyinglcd](https://www.yuyinglcd.com/))
+- **Display**: 4.3‑inch TFT touchscreen, 800×480, MIPI DSI interface (from [yuyinglcd](https://yuyinglcd.com/ch/products/1/4/549))
+
+---
+
+## Features
+
+- ✅ Real‑time Live2D model rendering
+- ✅ Touch‑based interaction (drag, tap, etc.)
+- ✅ Smooth 30 to 60 FPS animation on LVGL canvas
+- ✅ MIPI DSI display driver integration
+
+---
